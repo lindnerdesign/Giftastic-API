@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+  <link rel="shortcut icon" type="image/png" href="assets/images/flavicon.png"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js">
+
+  </script>
+  <meta charset="utf-8">
+  <title>In the Memetime</title>
+
+  <style>
+     .jumbotron{
+          background-image: url('assets/images/bannerBackground.jpg');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 300px;
+          text-align: center;
+         }
+  </style>
+
+
+</head>
+
+<body>
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <img src="assets/images/bannertitle.png" id="bannertitle">
+      <h1 class="bannerbg"></h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!--form field to generate your own button-->
+      <form class="col-sm-4" id="topic-form">
+         <label id="submit-text" for="topic-input">Get Reaction:</label>
+         <input type="text" id="topic-input"><br>
+         <input id="add-topic" type="submit" value="Submit">
+      </form>
+      <!--buttons-->
+      <div class="col-sm-8" id='buttonZone'>
+      </div>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <!--empty col-->
+    <div class="col-sm-4"></div>
+    <!--div holding gifs-->
+    <div class="col-sm-8" id="reactionsDiv"></div>
+
+  </div>
+</div>
+
+</body>
+</html>
